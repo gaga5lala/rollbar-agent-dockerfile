@@ -1,5 +1,7 @@
 FROM python:2.7
 
+MAINTAINER gaga5lala1013@gmail.com
+
 # ref: https://github.com/rollbar/rollbar-agent#install-rollbar-agent
 RUN pip install rollbar-agent==0.4.0
 
